@@ -21,7 +21,7 @@
                 width: 100%;
                 font-size: 22px;
                 text-align: center;
-                color:white;
+                color:black;
             }
             .invisible {
                 display:none;
@@ -48,8 +48,9 @@
 
         <div class="reveal">
             <div class="slides">
-                <section>
-                    <h1>Web temps réel avec SimpleWeb4j</h1>
+                <section data-background="img/first_slide.png">
+                    <h2>Web temps réel avec SimpleWeb4j</h2>
+                    <h4>Yan Bonnel</h4>
                 </section>
                 <section>
                     <section>
@@ -105,11 +106,7 @@
                         </ul>
                     </section>
                     <section>
-                        <p>En ce moment :</p>
-                        <img src="img/cartons.jpg">
-                    </section>
-                    <section>
-                        <h2>&lt;/ME&gt;</h2>
+                        <h2>&lt;/me&gt;</h2>
                     </section>
                 </section>
                 <section>
@@ -289,10 +286,11 @@ private void sendTweetToHandler(ReactiveHandler&lt;TweetPhoto&gt; handler,
                     <h2>Liens :</h2>
                     <ul>
                         <li>SimpleWeb4j : <a href="https://github.com/ybonnel/SimpleWeb4j">ybonnel/SimpleWeb4j</a></li>
-                        <li>Slides : <a href="http://ybonnel.github.io/NormandyJugRealTime">ybonnel.github.io/NormandyJugRealTime</a></li>
-                        <li>Démo : <a href="https://github.com/ybonnel/NormandyJugRealTime">ybonnel/NormandyJugRealTime</a></li>
+                        <li>Slides : <a href="http://ybonnel.github.io/NormandyJugRealTime">ybonnel.github.io/BreizhcampRealTime</a></li>
+                        <li>Démo : <a href="https://github.com/ybonnel/NormandyJugRealTime">ybonnel/BreizhcampRealTime</a></li>
                     </ul>
                 </section>
+                <section data-background="img/last_slide.png"></section>
             </div>
         </div>
 
@@ -304,10 +302,6 @@ private void sendTweetToHandler(ReactiveHandler&lt;TweetPhoto&gt; handler,
             <p class="note slide6 invisible">step4</p>
             <p class="note slide7 invisible">step5</p>
             <p class="note slide8 invisible">step6</p>
-        </div>
-
-        <div style="display:block;position:absolute;bottom:0;left:0;margin:25px">
-            <img src="img/logo.png"/>
         </div>
 
         <script src="lib/js/head.min.js"></script>
@@ -323,7 +317,7 @@ private void sendTweetToHandler(ReactiveHandler&lt;TweetPhoto&gt; handler,
                 history: true,
                 center: true,
 
-                theme: Reveal.getQueryHash().theme || 'default', // available themes are in /css/theme
+                theme: Reveal.getQueryHash().theme || 'Simple', // available themes are in /css/theme
                 transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
 
                 // Optional libraries used to extend on reveal.js
